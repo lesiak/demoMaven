@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<git>git@github.com:lesiak/demoMaven.git</git>
+		<git>ssh://git@github.com:lesiak/demoMaven.git</git>
 		<project.scm.id>my-scm-server</project.scm.id>
 	</properties>
 
