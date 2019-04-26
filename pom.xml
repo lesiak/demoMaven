@@ -16,7 +16,14 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<git>git@github.com:lesiak/demoMaven.git</git>
 	</properties>
+
+    <scm>
+        <connection>scm:git:${git}</connection>
+        <url>${git}</url>
+        <tag>HEAD</tag>      
+    </scm>
 
 	<dependencies>
 		<dependency>
